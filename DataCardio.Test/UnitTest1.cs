@@ -17,6 +17,7 @@ namespace DataCardio.Test
             bool risultato = false;
 
 
+
             risposta = CardioanalisiLibrary.Class1.IsDetermined(età, battiti) ;
 
             Assert.AreEqual(risposta, risultato);
